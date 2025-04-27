@@ -1,0 +1,111 @@
+.wrapper {
+  padding: 2rem;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addButton {
+  background-color: #10b981;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.sectionTitle {
+  font-size: 1.2rem;
+  margin: 2rem 0 1rem;
+  color: #333;
+}
+
+.classCard {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.classInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.meta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.875rem;
+  color: gray;
+}
+
+.subject {
+  color: #3b82f6;
+}
+
+.type {
+  color: #6b7280;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #333;
+  font-size: 0.875rem;
+}
+
+.arrow {
+  font-size: 1.25rem;
+  color: #666;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  /* spacing between right section items */
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  /* spacing between icons */
+  margin-right: 12px;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 18px;
+  transition: transform 0.2s;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.arrow {
+  font-size: 22px;
+  cursor: pointer;
+  margin-left: 8px;
+  /* extra spacing from time */
+}

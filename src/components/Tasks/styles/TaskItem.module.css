@@ -1,0 +1,30 @@
+.right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  /* spacing between right section items */
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  /* spacing between icons */
+  margin-right: 12px;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 18px;
+  transition: transform 0.2s;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.arrow {
+  font-size: 22px;
+  cursor: pointer;
+  margin-left: 8px;
+  /* extra spacing from time */
+}

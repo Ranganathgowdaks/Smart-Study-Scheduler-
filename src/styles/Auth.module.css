@@ -1,0 +1,87 @@
+.authContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #bbdefb, #e3f2fd);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.card h2 {
+  color: #0d47a1;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #546e7a;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form input {
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #90caf9;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.form input:focus {
+  border-color: #1e88e5;
+}
+
+.submitButton {
+  background-color: #1e88e5;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #1565c0;
+}
+
+.toggleText {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #546e7a;
+}
+
+.toggleText button {
+  background: none;
+  border: none;
+  color: #1e88e5;
+  font-weight: bold;
+  margin-left: 6px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.toggleText button:hover {
+  color: #0d47a1;
+}
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
