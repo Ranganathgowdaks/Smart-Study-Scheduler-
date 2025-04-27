@@ -19,3 +19,16 @@ To run the project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Ranganathgowdaks/Smart-Study-Scheduler-.git
+   Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Start the development server:
+
+bash
+Copy
+Edit
+npm run dev
+Now, you should have a clean README.md file with the updated content for your project.
