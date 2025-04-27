@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -10,3 +11,7 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+=======
+# Smart-Study-Scheduler-
+Smart Study Scheduler: A web app to help students manage tasks, exams, and class schedules. Features include task management, exam tracking, a Pomodoro-style focus timer, and subject management with Google Drive integration. Built with React, Redux, Vite, and Bootstrap for a seamless user experience.
+>>>>>>> 9960cfc176e32eea54c05d5cf396694672f0e800
