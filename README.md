@@ -1,17 +1,21 @@
-<<<<<<< HEAD
-# React + Vite
+# Smart-Study-Scheduler
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Smart-Study-Scheduler-
 Smart Study Scheduler: A web app to help students manage tasks, exams, and class schedules. Features include task management, exam tracking, a Pomodoro-style focus timer, and subject management with Google Drive integration. Built with React, Redux, Vite, and Bootstrap for a seamless user experience.
->>>>>>> 9960cfc176e32eea54c05d5cf396694672f0e800
+
+## Features:
+- **Task Management**: Add, edit, and track your study tasks and deadlines.
+- **Exam Tracker**: Manage upcoming exams and deadlines.
+- **Focus Timer**: Includes a Pomodoro-style timer with adjustable time settings.
+- **Subjects Management**: Organize subjects, resources, and modules with Google Drive links for easy access to study materials.
+
+## Technologies Used:
+- **Frontend**: React.js, Redux, JavaScript, HTML, CSS, Bootstrap
+- **Development Tools**: Vite for faster development and optimized build performance
+
+## Setup Instructions:
+
+To run the project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Ranganathgowdaks/Smart-Study-Scheduler-.git
