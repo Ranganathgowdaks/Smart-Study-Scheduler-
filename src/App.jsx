@@ -1,6 +1,8 @@
 // src/App.jsx
+import RoutesConfig from "./routes/Routes";
+
 const App = () => {
-  return null; // Routing is handled by RouterProvider
+  return <RoutesConfig />; // This will render your routes
 };
 
 export default App;
