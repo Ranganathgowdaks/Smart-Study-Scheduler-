@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import Layout from "../components/Layout/Layout";
 import Tasks from "../components/Tasks/Tasks";
 import AuthPage from "../components/AuthPage";
@@ -6,7 +6,7 @@ import Subjects from "../components/Subjects/Subjects";
 import FocusTimer from "../components/FocusTimer/FocusTimer";
 import Classess from "../components/Classess/Classess";
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     path: "/",
     element: <Layout />,
