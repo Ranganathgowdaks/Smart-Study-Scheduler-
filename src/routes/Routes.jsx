@@ -5,10 +5,12 @@ import AuthPage from "../components/AuthPage";
 import Subjects from "../components/Subjects/Subjects";
 import FocusTimer from "../components/FocusTimer/FocusTimer";
 import Classess from "../components/Classess/Classess";
+
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
+    errorElement: <div>Oops! Something went wrong. Page not found.</div>, // Add error element
     children: [
       { index: true, element: <Tasks /> },
       { path: "auth", element: <AuthPage /> },
@@ -16,7 +18,6 @@ export const router = createBrowserRouter([
       { path: "subjects", element: <Subjects /> },
       { path: "focus-timer", element: <FocusTimer /> },
       { path: "classess", element: <Classess /> },
-      // { path: "*", element: <Navigate to="/" replace /> },
     ],
   },
 ]);
